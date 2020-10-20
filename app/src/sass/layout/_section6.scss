@@ -1,0 +1,123 @@
+.section6 {
+
+
+    &__banner {
+        background-color: $section-bg;
+
+        &--p {
+            color: white;
+
+            font-size: 23px;
+            font-weight: 700;
+
+            text-align: center;
+
+            padding: 20px 0;
+        }
+    }
+
+
+    &__form {
+        display: flex;
+        flex-direction: row;
+        background-image: url("../img/formularz_tło.png");
+        background-size: cover;
+        height: 700px;
+        padding-bottom: 800px;
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        &__left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &__imgContainer {
+
+                &--img {
+                    //
+                }
+            }
+        }
+
+        &__right {
+
+
+            &--h3 {
+                color: $text--light-blue;
+
+                text-align: center;
+                text-transform: uppercase;
+
+
+                font-size: 48px;
+                font-weight: 800;
+            }
+
+            &__p {
+
+                font-size: 24px;
+
+                text-align: center;
+
+                color: $red;
+
+                &--s {
+                    color: $nav__text--blue;
+
+                }
+
+                &--span {
+
+                    color: $red;
+                    font-size: 28px;
+                }
+            }
+
+            &__inputs {
+
+                display: flex;
+                flex-direction: column;
+                width: 60%;
+                margin: 0 auto;
+
+                &--country {
+                    padding: 10px 0px;
+                    margin: 10px 0px;
+                    border-radius: 25px;
+                    text-align: center;
+
+                    border: 4px solid $button-border;
+                }
+
+                &--name {
+                    padding: 10px 0px;
+                    margin: 10px 0px;
+                    border-radius: 25px;
+                    text-align: center;
+
+                    border: 4px solid $button-border;
+                }
+
+                &--tel {
+                    padding: 10px 0px;
+                    margin: 10px 0px;
+                    border-radius: 25px;
+                    text-align: center;
+
+                    border: 4px solid $button-border;
+                }
+            }
+
+            &--p {
+
+                text-align: center;
+                margin: 0px;
+                margin-top: 20px;
+            }
+        }
+    }
+}

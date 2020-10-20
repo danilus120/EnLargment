@@ -1,0 +1,52 @@
+.section8 {
+    margin-bottom: 60px;
+
+
+    &--h2 {
+        color: $text--blue;
+        font-size: 48px;
+        font-weight: 700;
+
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__p {
+        font-size: 30px;
+        font-weight: 500;
+
+        text-align: center;
+
+        &--span {
+            color: $text--blue;
+
+            font-weight: 700;
+        }
+    }
+
+    &__table {
+        font-weight: 600;
+
+        text-align: center;
+
+        margin: 0 auto;
+
+        &__th {
+            border: 2px solid black;
+            font-size: 48px;
+        }
+
+        &__td {
+            border: 2px solid black;
+            padding: 5px 4pxz;
+
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &--blue {
+            color: $text--blue;
+            font-weight: 600;
+        }
+    }
+}

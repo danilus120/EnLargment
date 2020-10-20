@@ -1,0 +1,53 @@
+.section10 {
+    padding-bottom: 40px;
+
+    &--h2 {
+        text-align: center;
+
+        font-size: 50px;
+        font-weight: 600;
+
+        color: $text--blue;
+
+        margin-bottom: 40px;
+    }
+
+    &__certificates {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        &__cert {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            &__imgContainer {
+                height: 240px;
+
+                &--img {}
+            }
+
+
+            &__textContainer {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                &--p {
+                    padding-top: 20px;
+
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 24px;
+
+                    text-align: center;
+                }
+            }
+
+        }
+    }
+}

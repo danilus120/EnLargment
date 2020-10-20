@@ -1,0 +1,25 @@
+.section5 {
+    &--h2 {
+        font-size: 45px;
+        font-weight: 800;
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: $text--blue;
+
+        margin-bottom: 40px;
+    }
+
+    &__imgContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 40px;
+
+        &--img {
+            object-fit: cover;
+        }
+    }
+}
